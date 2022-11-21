@@ -40,12 +40,24 @@ a {
     margin-left: 30px;
 }
 
-div.main-background-image {
+
+
+div.our-mission {
+    background: black;
+    width: 100%;
+    text-align: center;
+}
+
+.main-background-image {
     background-image: url("recources/img/img-mission-background.jpg");
     height: 700px;
     background-repeat: no-repeat;
     width: 1200px;
     margin: 0 auto;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
