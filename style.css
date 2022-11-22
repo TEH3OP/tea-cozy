@@ -23,6 +23,7 @@ header{
     right: 0;
     padding: 0 10px;
     margin: 0 auto;
+    background: black;
 
 }
 
@@ -40,9 +41,7 @@ a {
     margin-left: 30px;
 }
 
-
-
-div.our-mission {
+.our-mission{
     background: black;
     width: 100%;
     text-align: center;
@@ -58,6 +57,90 @@ div.our-mission {
     align-items: center;
     justify-content: center;
 }
+
+.tea-of-the-month {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pictures {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.picture-container {
+    margin-bottom: 20px;
+}
+
+.picture-container img{
+    height: 200px;
+    width: 300px;
+}
+
+.picture-container figcaption{
+    font-weight: bold;
+}
+
+.picture-container + .picture-container{
+    margin-left: 20px;
+}
+
+.location-background-image {
+    background-image: url("recources/img/img-locations-background.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.location-caption {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+.container-locations {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.container-locations>div {
+    width: 300px;
+    background: black;
+    padding-bottom: 20px;
+    opacity: 1;
+}
+
+.container-locations>div+div {
+    margin-left: 20px;
+}
+
+.container-locations>div>div{
+    /* width: 100%; */
+    text-align: center;
+    line-height: 60px;
+}
+
+footer h2,h5 {
+    text-align: center;
+}
+
+footer .left-align {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+
 
 
 
